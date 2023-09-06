@@ -195,12 +195,18 @@ img {
 
 .home_social {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  padding-top: 0;
+  padding-bottom: 2.5rem;
+  flex-direction: row;
+  align-self: flex-end;
 }
 
 .home_social-icon {
   width: max-content;
-  margin-bottom: var(--mb-2);
+  /* margin-bottom: var(--mb-2); */
+  margin-bottom: 0;
+  margin-right: var(--mb-4);
   font-size: 2rem;
   color: var(--first-color);
   transition: 5;
@@ -513,4 +519,10 @@ img {
   .home_img {
     width: 450px;
   }
+}
+
+#adammondta {
+  margin: 0, 10rem;
+  border: 1px solid var(--first-color);
+  border-radius: 25%;
 }
